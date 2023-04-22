@@ -1,0 +1,297 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    text-align: center;
+}
+.banner-area{
+	background-image: url(images/banner-img.png);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+
+}
+.banner-area:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+	z-index:-1 ;
+}
+.banner-area h1
+{
+	padding-top: 8%;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+.banner-area p{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 15px;
+	color: #fdfdfd;
+	text-align: center;
+}
+.about{
+	border: 2px solid;
+    border-radius: 17px;
+    margin-left: 41%;
+    padding-right: 14px;
+    padding-left: 14px;
+    color: white;
+    background: #3679c9;
+}
+.banner-par{
+	    margin-left: 12%;
+    margin-right: 20%;
+    font-size: 15px;
+    color: #000;
+    margin-top: 12px;
+    text-align: left;
+
+
+}
+.banner-phase h2
+{
+	padding-top: 42px;
+	text-align: center;
+	font-size: 22px;
+	margin-left: 15%;
+	margin-right: 11%;
+	color:#4646b7 ;
+
+}
+
+.img{
+	text-align: center;
+	background-color: #b4b4b4;
+}
+.banner-proud 
+{
+		padding-top: 42px;
+	background-color: black;
+	margin-top: -16px;
+	padding: 50px 150px;
+}
+.banner-proud h2{
+
+	text-align: center;
+	font-size: 22px;
+	color:#fff ;
+}
+.thr-logo img{
+	          width: 130px;
+    margin-top: 40px;
+    margin-left: 14%;
+    border-radius: 8px;
+}
+
+.two-logo img{
+	        width: 130px;
+    margin-top: 50px;
+    margin-left: 50%;
+    border-radius: 8px;
+}
+.banner-circle h2{
+	padding-top: 42px;
+	text-align: center;
+	font-size: 22px;
+	margin-left: 15%;
+	margin-right: 11%;
+	color:#4646b7 ;
+
+}
+.circle-img{
+	text-align: center;
+	margin-top: -9px;
+}
+.banner-auto h2{
+	padding-top: 42px;
+	text-align: center;
+	font-size: 22px;
+	margin-left: 15%;
+	margin-right: 11%;
+	color:#000 ;
+}
+.para-auto p{
+	margin-left: 6%;
+    margin-right: 14%;
+	font-size: 15px;
+	color: #000;
+	text-align: left;
+
+}
+.banner-auto{
+	background: #ebebebbd;
+	    width: 100%;
+    height: auto;
+}
+.auto-img
+{
+	margin: 0px!important;
+}
+.auto-img img{
+	background: gray;
+    text-align: center !important;
+    width: 100%;
+    height:auto;
+}
+.banner-yellow {
+padding-top: 104px;
+   height: auto;
+    text-align: left;
+    background-image: url(images/yellow-banner.jpg);
+    padding-left: 15%;
+    padding-right: 14%;
+    padding-bottom: 54px;
+}
+.banner-yellow p{
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 50px;
+    color: #000;
+}
+.banner-market h2{
+	padding-top: 42px;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 22px;
+	color:#fff ;
+	background: #000;
+	padding-bottom: 16px;
+
+}
+.banner-basket img{
+	width: 100%;
+    height: auto;
+    margin-top: -8px;
+}
+
+.banner-discover h2{
+	padding-top: 42px;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 22px;
+	color:#fff ;
+	background: #000;
+
+}
+.banner-discover p{
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+	background: black;
+	margin-top: -12px;
+    padding-top: 12px;
+    WIDTH: 100%;
+    height: 19%;
+}
+@media screen and (max-width: 758px)
+{
+.banner-discover p
+{
+	height: 9%!important;
+}
+}
+.case-study{
+	margin-top: -88px;
+    margin-left: 42%;
+    border: 2px solid;
+    padding-left: 31px;
+    border-radius: 17px;
+    padding-right: 27px;
+    color: white;
+    background: black;
+}
+/*contact form*/
+.containerr{
+  width: 83%;
+    height: 571px;
+    background: #080860;
+    margin: -16px auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 39px;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+
+.btn-sub {
+	    background: #e7cd13;
+    margin-left: 43%;
+    padding-left: 43px;
+    border: 2px solid;
+    border-radius: 34px;
+    padding-right: 101px;
+    width: 12%;
+    height: 10%;
+    padding-top: 10px;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
+
+
+
+
+
+
+
